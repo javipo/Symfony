@@ -1,0 +1,7 @@
+mdw_demo_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: MDWDemoBundle:Default:index }
+
+articulos:
+  pattern: /articulos
+  defaults: { _controller: MDWDemoBundle:Default:articulos }
